@@ -1,0 +1,29 @@
+Here I will list all the functions in this game.
+
+First of all, the data.txt file has been created only to be able to save and store your highscore so that when you close the game and start another one, your highscore will be saved and displayed.
+
+The main.py file contains the game logic and uses the "Screen" function from the "turtle" module, while the rest of the classes created are using the "Turtle" Class from the "turtle" module - for more
+information about the "turtle" module you can visit: https://docs.python.org/3/library/turtle.html 
+
+The snake.py file contains the "Snake" Class which has the next features:
+- create_snake: will create the initial snake
+- add_segment: creates body segments for the snake
+- growth: increses the body segments of the snake
+- reset snake: will delete all of the added segments and will reposition the snake in the middle of the map
+- move: makes the snake to move
+- borderless_mode: this is the second game mode 
+- wall_collision: this is the first game mode 
+- up, down, left, right: these 4 functions are the controls (ex: press "up" arrow on the keyboard and the snake will go upwards)
+- dash: you can toggle this function by pressing on the "spacebar" of your keyboard (you can press it multiple times to speed up) WARNING - IF YOU ARE NEAR THE FOOD AND YOU DASH, THE SNAKE WILL JUMP OVER IT.
+
+The food.py file contains the "Food" Class which has only 1 function:
+- refresh: it will randomly generate the food pieces on the map 
+
+The scoreboard.py file contains the "Scoreboard" Class:
+- update_scoreboard: it will update the scoreboard every time the score changes
+- reset_scoreboard: it will reset the score every time you start a new game
+- increse_score: it will increase the score every time your score increses
+
+
+
+
