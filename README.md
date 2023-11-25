@@ -6,4 +6,4 @@ BORDERLESS: Since there are no walls in the second mode, the snake's head will e
 
 In the main.py file there are instructions to change the game mode from default to borderless.
 
-For more details about the functions of the game you read the small documentation in the documentation branch.
+For more details about the functions of the game you can read the features file.
