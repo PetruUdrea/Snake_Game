@@ -1,4 +1,5 @@
 # Snake_Game
+Python Version that I am using: Python 3.11.4
 This is a simple snake game developed in Python using object-oriented programming principles and the Turtle Graphics package. This game have 2 game modes.
 
 DEFAULT: When the snake's head contacts any of the four sides in the first game mode—up, down, left, or right—you've lost and the game will immediately restart.
